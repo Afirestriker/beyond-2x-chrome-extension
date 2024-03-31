@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Customize Youtube Playback Speed",
+    "version": "1.0.0",
+    "description": "Adjust the Youtube video playback speed beyond 2x",
+    "icons": {
+        "16": "images/playback-16.png",
+        "32": "images/playback-32.png",
+        "48": "images/playback-48.png",
+        "128": "images/playback-128.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "images/playback-16.png",
+            "32": "images/playback-32.png",
+            "48": "images/playback-48.png",
+            "128": "images/playback-128.png"
+        },
+        "default_title": "Customize Youtube Playback Speed",
+        "default_popup": "popup/popup.html"
+    },
+    "author": "agrawalashish.in@gmail.com"
+}
