@@ -5,7 +5,7 @@
     "author": "agrawalashish.in@gmail.com",
     "description": "Increase the Youtube video playback speed beyond 2x",
     "permissions": ["storage", "tabs"],
-    "host-permissions": ["https://*youtube.com*"],
+    "host_permissions": ["https://*.youtube.com/*"],
     "background": {
         "service_worker": "background.js"
     },
