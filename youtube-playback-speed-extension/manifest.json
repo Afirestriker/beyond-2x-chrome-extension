@@ -1,14 +1,20 @@
 {
     "manifest_version": 3,
-    "name": "Customize Youtube Playback Speed",
+    "name": "Beyond 2x - Youtube Playback Speed",
     "version": "1.0.0",
-    "description": "Adjust the Youtube video playback speed beyond 2x",
-    "icons": {
-        "16": "images/playback-16.png",
-        "32": "images/playback-32.png",
-        "48": "images/playback-48.png",
-        "128": "images/playback-128.png"
+    "author": "agrawalashish.in@gmail.com",
+    "description": "Increase the Youtube video playback speed beyond 2x",
+    "permissions": ["storage", "tabs"],
+    "host-permissions": ["https://*youtube.com*"],
+    "background": {
+        "service_worker": "background.js"
     },
+    "content_scripts": [
+        {
+            "matches": ["https://*.youtube.com/*"],
+            "js": ["scripts/content.js"]
+        }
+    ],
     "action": {
         "default_icon": {
             "16": "images/playback-16.png",
@@ -16,8 +22,13 @@
             "48": "images/playback-48.png",
             "128": "images/playback-128.png"
         },
-        "default_title": "Customize Youtube Playback Speed",
+        "default_title": "Beyond 2x",
         "default_popup": "popup/popup.html"
     },
-    "author": "agrawalashish.in@gmail.com"
+    "icons": {
+        "16": "images/playback-16.png",
+        "32": "images/playback-32.png",
+        "48": "images/playback-48.png",
+        "128": "images/playback-128.png"
+    }
 }
