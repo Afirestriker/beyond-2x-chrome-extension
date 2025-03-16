@@ -1,6 +1,5 @@
-# chrome-extension
+# Beyond-2x - A Google Chrome Extension
 
-## Youtube-Playback-Speed-Extension
-Increase the youtube video playback speed beyond 2x.
+Increase the youtube video playback speed beyond 2x!
 
-![Youtube-Playback-Speed-Extension](./images/youtube-playback-speed-extension-outpu.png "Youtube-Playback-Speed-Extension")
+![Beyond-2xYoutube-Playback-Speed-Extension](./Social-Media-Post/Beyond-2x-Extension.png "Beyond-2x-Youtube-Playback-Speed-Extension")
