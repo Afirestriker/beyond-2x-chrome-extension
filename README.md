@@ -1,4 +1,4 @@
-# Beyond-2x - A Google Chrome Extension
+# Beyond 2x - A Google Chrome Extension
 
 Increase the youtube video playback speed beyond 2x!
 
